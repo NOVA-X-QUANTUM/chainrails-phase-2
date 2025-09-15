@@ -52,3 +52,5 @@ Designed to be modular: you can run Phase 2 side-by-side or linked via APIs.
 - [XRPL.js](https://github.com/XRPLF/xrpl.js) — XRPL integration  
 - [Docker](https://www.docker.com/) — Optional containerization  
 - [NOVA 1000 Codex](../NOVA%201000%20Codex.pdf) — ACE governance + logic  
+
+### 📂 Phase 1 repo (`chainrails-xrpl-mvp/README.md`)
