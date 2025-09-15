@@ -16,37 +16,29 @@
    ```bash
    npm install
    npm run dev
-````
+Health check:
 
-3. Health check:
-
-   ```http
-   GET /health → { "status": "ok", "phase": 2 }
-   ```
-
----
-
-## ⚙️ Env
-
-```env
+http
+Copy code
+GET /health → { "status": "ok", "phase": 2 }
+⚙️ Env
+env
+Copy code
 PHASE1_BASE_URL=http://localhost:8080
 XRPL_ENDPOINT=wss://s.altnet.rippletest.net:51233
 ACE_WEBHOOK_URL=http://localhost:9090/webhook
-```
+📑 Notes
+Phase 1 = settlement engine.
 
----
+Phase 2 = compliance + continuity + ACE.
 
-## 📑 Notes
+Both can stay in separate repos until a monorepo decision is made.
 
-* **Phase 1** = settlement engine.
-* **Phase 2** = compliance + continuity + ACE.
-* Both can stay in separate repos until a monorepo decision is made.
-* Designed to be modular: you can run Phase 2 side-by-side with Phase 1, or link via APIs only.
+Designed to be modular: you can run Phase 2 side-by-side with Phase 1, or link via APIs only.
 
----
+📂 Documentation
+📜 Phase 2 Scope
 
-## 📂 Documentation
+🧱 Tech Stacks
 
-* [📜 Phase 2 Scope](./docs/PHASE2_SCOPE.md)
-* [🧱 Tech Stacks](./docs/STACKS.md)
 
