@@ -14,4 +14,3 @@ app.get("/phase1/ping", async (_req, res) => {
 
 const port = process.env.PORT || 9090;
 app.listen(port, () => console.log(`Phase 2 API on :${port}`));
-
