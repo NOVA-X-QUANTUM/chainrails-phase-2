@@ -53,4 +53,8 @@ Designed to be modular: you can run Phase 2 side-by-side or linked via APIs.
 - [Docker](https://www.docker.com/) — Optional containerization  
 - [NOVA 1000 Codex](../NOVA%201000%20Codex.pdf) — ACE governance + logic  
 
-### 📂 Phase 1 repo (`chainrails-xrpl-mvp/README.md`)
+---
+
+## 🔙 Back to Phase 1
+Phase 1 (Settlement MVP) lives here → [chainrails-xrpl-mvp](https://github.com/NOVA-X-QUANTUM/chainrails-xrpl-mvp)
+
