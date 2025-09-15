@@ -1,1 +1,18 @@
+{
+  "name": "chainrails-phase-2",
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "node --watch ./dist/index.js",
+    "build": "tsc",
+    "start": "node ./dist/index.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "axios": "^1.7.2"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.0"
+  }
+}
 
