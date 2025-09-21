@@ -1,7 +1,9 @@
-import { Request, Response } from "express";
+import { Router } from "express";
+export const router = Router();
 
-export default function (_req: Request, res: Response) {
+/**
+ * GET /health -> {"status":"ok","phase":2}
+ */
+router.get("/health", (_req, res) => {
   res.json({ status: "ok", phase: 2 });
-}
-
-
+});
